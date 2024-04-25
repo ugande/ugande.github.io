@@ -25,6 +25,28 @@ body {
   margin: 0 auto;
 }
 
+.site-header .logo {
+  color: #efefef;
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+
+.main-nav li {
+  list-style-type: none;
+  display: inline-block;
+  transition: all 0.9s linear;
+}
+
+.main-nav li a {
+  display: block;
+  font-size: 1.2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #e3e3e3;
+  padding: 1em;
+}
+
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
   width: 10px;
@@ -45,11 +67,4 @@ body {
 .container {
     width: 90%;
     margin: 0 auto;
-}
-
-/* Header styles */
-.main-header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
