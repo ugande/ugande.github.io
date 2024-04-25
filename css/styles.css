@@ -26,9 +26,9 @@ body {
 }
 
 .site-header .logo {
-  color: #efefef;
-  font-size: 1.8em;
-  text-transform: uppercase;
+  color: #fff;
+  font-family: poppins, sans-serif;
+  font-size: 1em;
 }
 
 .main-nav li {
@@ -39,10 +39,10 @@ body {
 
 .main-nav li a {
   display: block;
-  font-size: 1.2em;
+  font-size: 0.8em;
   text-decoration: none;
   text-transform: uppercase;
-  color: #efefef;
+  color: #fff;
   padding: 1em;
 }
 
